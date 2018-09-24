@@ -1,0 +1,27 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.example.nope"
+    },
+    "cordova-plugin-sms": {
+      "PACKAGE_NAME": "com.example.nope"
+    },
+    "cordova-plugin-sms-receive": {
+      "PACKAGE_NAME": "com.example.nope"
+    },
+    "cordova-plugin-sms-receiver": {
+      "PACKAGE_NAME": "com.example.nope"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.nope"
+    }
+  },
+  "dependent_plugins": {}
+}

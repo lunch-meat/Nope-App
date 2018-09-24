@@ -1,0 +1,42 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-sms": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-sms"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-android-permissions": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-android-permissions"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-sms-receive": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-sms-receive"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-sms-receiver": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-sms-receiver"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
