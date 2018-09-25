@@ -1,3 +1,9 @@
+var testObject = {
+	testFunction: function() {
+		console.log('hi');
+	}
+};
+
 var sendNopeSMS = function(event) {
 	console.log(event);
 	let number = event.data.address;
@@ -25,7 +31,7 @@ function toggleNopeOnOffButton(state) {
 
 function turnNopeOffHandler() {
 	document.removeEventListener(
-		'onSMSArrive', 
+	'onSMSArrive', 
   	 sendNopeSMS
   );
   toggleNopeOnOffButton('off');
@@ -38,5 +44,26 @@ function turnNopeOnHandler() {
 		sendNopeSMS
   );
   toggleNopeOnOffButton('on');
+}
+
+function turnSelectedContactsNopeOnHandler() {
+	if (navigator.contacts) {
+			let options = { hasPhoneNumber: true };
+			var fields = ["*"];
+			navigator.contacts.find (
+				fields,
+				this.onGetContactsSuccess,
+				this.onGetContactsError,
+				options
+			);
+		}
+}
+
+function turnSelectedContactsNopeOffHandler() {
+	document.removeEventListener(
+		'onSMSArrive', 
+  	 sendNopeSMS
+  );
+  toggleNopeOnOffButton('off');
 }
 

@@ -29,4 +29,5 @@
     <plugin name="cordova-plugin-sms-receiver" spec="^0.1.6" />
     <engine name="ios" spec="^4.5.5" />
     <engine name="android" spec="^7.0.0" />
+    <plugin name="cordova-plugin-contacts" spec="^3.0.1" />
 </widget>
